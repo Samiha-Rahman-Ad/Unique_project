@@ -1,0 +1,418 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: ;
+	line-height: ;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/* header section */
+.header-section{
+	width: 100%;
+	background: url("../images/hero.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light{
+	background: transparent !important; 
+}
+
+.header-section .navbar-brand img{
+	width: 100px;
+} 
+
+.header-section .navbar-light .navbar-nav .nav-link.active{
+	color: #511de5;
+	background: url("../images/layer.png") center bottom no-repeat;
+	background-size: contain; 
+}
+
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: #000;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin: 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:focus,
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+	background: url("../images/layer.png") center bottom no-repeat;
+	background-size: contain;
+}
+
+.header-section .btn-info{
+	padding: 8px 35px;
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	border: none;
+	border-radius: 35px;
+	background: linear-gradient(to right, #511de5, #0c8bfb); 
+}
+
+.header-section .btn-info:hover, .header-section .btn-info:focus{
+	color: #fff;
+	background: linear-gradient(to right, #0c8bfb, #511de5); 
+}
+
+.banner{
+	width: 100%;
+	padding: 150px 0px;
+}
+
+.inner-banner{
+	width: 100%;
+	padding: 100px 0px;
+	text-align: right;
+}
+
+.inner-banner h1{
+	font-size: 60px;
+    font-weight: 800;
+    line-height: 65px;
+    margin-top: -45px;
+}
+
+.inner-banner h1 span{
+	color: #511de5;
+}
+
+.inner-banner .btn-primary{
+	padding: 8px 35px;
+	margin-top: 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 500;
+	color: #000;
+	border: 1px solid #f2f2f2;
+	border-radius: 35px;
+	background: #f2f2f2;
+}
+
+.inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+	color: #fff;
+	border: 1px solid #511de5;
+	background: #511de5;
+}
+
+.highlight{
+	width: 100%;
+	background: url("../images/Highlight.png") center top no-repeat;
+	background-size: cover;
+	padding: 40px 0px;
+}
+
+.inner-high{
+	width: 100%;
+	position: relative;
+}
+
+.inner-high img{
+	position: absolute;
+	top: -80px;
+	width: 250px;
+	left: 0;
+}
+
+.inner-high h2{
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 36px;
+	color: #fff;
+	text-align: center;
+}
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .inner-feature{
+	width: 100%;
+	padding: 80px;
+	background: url("../images/featurebg.png") center bottom no-repeat;
+	background-size: cover;
+	box-shadow: 1px 4px 10px #ccc; 
+}
+
+.feature .inner-feature h2{
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 47px;
+	margin-left: 30px;
+	color: #000;
+}
+.feature .inner-feature p{
+	font-size: 14px;
+	font-weight: 24px;
+	color: #000;
+	margin: 25px 30px 30px;
+}
+.feature .inner-feature .inner-percent{
+	width: 100%;
+	padding: 40px 0px 40px;
+}
+.feature .inner-feature .inner-percent p .percent{
+	font-size: 110px;
+	font-weight: 900;
+	line-height: 0px;
+	background:linear-gradient(to right, #511de5, #0c8bfb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-o-background-clip: text;
+	-ms-background-clip: text;
+}
+.feature .inner-feature .inner-percent p .pro{
+	font-size: 18px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+.feature .clients{
+	width: 100%;
+	padding: 80px 0px 0px;
+	text-align: center;
+}
+
+.intro-quote{
+	width: 100%;
+	padding: 160px 0px;
+	background: url("../images/bg.png") center top no-repeat;
+	background-size: cover;
+}
+.inner-quote{
+	width: 100%;
+	padding: 162px 20px 11px;
+    background: url("../images/ell1.png") center top no-repeat;
+	background-size: contain;	
+}
+.inner-quote-text{
+	width: 54%;
+    margin: -27px 145px 38px;
+    padding: 25px 10px 65px
+}
+.inner-quote-text p{
+	font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.inner-quote-text h5{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+.inner-text{
+	width: 100%;
+    margin-top: 120px;
+    margin-left: 33px;
+}
+.inner-text h2{
+	font-size: 50px;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.inner-text .btn-primary{
+	padding: 8px 35px;
+	margin-top: 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 500;
+	color: #000;
+	border: 1px solid #f2f2f2;
+	border-radius: 35px;
+	background: #f2f2f2;
+}
+
+.inner-text .btn-primary:hover, .inner-banner .btn-primary:focus{
+	color: #fff;
+	border: 1px solid #511de5;
+	background: #511de5;
+}
+
+.fea{
+	width: 100%;
+	padding: 80px 0px;
+}
+.fea .inner-fea{
+	width: 100%;
+	padding: 11px 74px 32px;;
+	background: url("../images/eff.png") right bottom no-repeat;
+	background-size: contain;
+}
+
+.fea .inner-fea h2{
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 47px;
+	margin-left: 30px;
+	color: #000;
+}
+.fea .inner-fea p{
+	font-size: 14px;
+	font-weight: 24px;
+	color: #000;
+	margin: 25px 30px 30px;
+}
+.fea .inner-fea .inner-percent{
+	width: 100%;
+	padding: 40px 0px 40px;
+}
+.fea .inner-fea .inner-percent p .percent{
+	font-size: 110px;
+	font-weight: 900;
+	line-height: 0px;
+	background:linear-gradient(to right, #511de5, #0c8bfb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-o-background-clip: text;
+	-ms-background-clip: text;
+}
+.fea .inner-fea .inner-percent p .pro{
+	font-size: 18px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+.fea .clients{
+	width: 100%;
+	padding: 80px 0px 0px;
+	text-align: center;
+}
+
+.fea .btn-info{
+	padding: 8px 35px;
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	border: none;
+	border-radius: 35px;
+	background: linear-gradient(to right, #511de5, #0c8bfb); 
+}
+
+.fea .btn-info:hover, .header-section .btn-info:focus{
+	color: #fff;
+	background: linear-gradient(to right, #0c8bfb, #511de5);
+}
+
+.who-we{
+	width: 100%;
+    padding: 153px 0px;
+    background-color: #fcfcfc;
+}
+.who-we .card{
+	border: none;
+}
+.who-we .title{
+	text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.who-we .title h2{
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.who-we .card img{
+	margin-top: 15px;
+}
+.who-we .card .card-body{
+	padding: 1rem 25px;
+}
+.who-we .card .card-body .card-title{
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: 600;
+}
+.who-we .card .card-body .card-text{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fcfcfc;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    text-align: center;
+    padding: 56px;
+ }
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 23%;
+    margin-left: 125px;
+  }
+
+
+@media (min-width: 320px) and (max-width: 480px){
+	.header-section .bg-light{
+	background: transparent !important;
+	} 
+
+	.header-section .navbar-light .navbar-nav .nav-link.active{
+	color: #511de5;
+	background: url("../images/layer.png") left bottom no-repeat;
+	background-size: auto;
+    }
+
+    .header-section .navbar-light .navbar-nav .nav-link:focus,
+    .header-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+	background: url("../images/layer.png") left bottom no-repeat;
+	background-size: auto;
+    }
+
+    .navbar-light .navbar-toggler{
+    	color: rgba(0,0,0,0.55);
+    	border-color: #08c;
+    }
+
+    .navbar-toggler:focus{
+    	box-shadow: 0 0 0 4px #08c;
+    }
+
+    .banner{
+    	padding: 80px 0px;
+    }
+
+    .inner-banner h1{
+		font-size: 30px;
+		font-weight: 800;
+		line-height: 38px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	.banner{
+    	padding: 80px 0px;
+    }
+	
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+	
+}
